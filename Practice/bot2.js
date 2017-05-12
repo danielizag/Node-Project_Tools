@@ -7,7 +7,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 var tweet = {
-	status: 'hello world! from node.js! #twitterapiisalive'
+	status: 'hello world!'
 }
 
 T.post('statuses/update', tweet, tweeted);
